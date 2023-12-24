@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.se{
+    width: 100%;
+}
+.banner_img{
+    background-image:url(/img/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 200px;
+    width: 100%;
+
+}
+.text_style:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:orangered;
+}
+.text_style1:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:blue;
+}
+.text_style2:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:yellow;
+}
+.text_style3:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:grey;
+}
+.text_style4:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:purple;
+}
+
+
+.name_animation{
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+
+}
+.title_name{
+    animation-name: title;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+
+@media screen and (max-width: 650px){
+    .banner_img{
+        padding: 100px;
+    }
+    
+}
+@media screen and (max-width: 350px){
+    .banner_img{
+        padding: 40px;
+        font-size: medium;
+    }
+    
+}
+
+
+@keyframes title {
+    0%{
+        color: black;
+    }
+    50%{
+        color: grey;
+    }
+    75%{
+        color: coral;
+    }
+    100%{
+        color: purple;
+    }
+    
+}
+
+@keyframes colorchange{
+    0%{
+        color:orange;
+    }
+    25%{
+        color: green;
+    }
+    50%{
+        color: lightblue;
+    }
+    100%{
+        color: yellow;
+    }
+    
+}
