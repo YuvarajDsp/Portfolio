@@ -53,7 +53,7 @@
     animation-iteration-count:infinite;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 660px){
     .banner_img{
         padding: 100px;
     }
@@ -65,6 +65,11 @@
         font-size: medium;
     }
     
+}
+@media screen and (max-width:300px){
+    .space{
+        font-size: small;
+    }
 }
 
 
