@@ -10,7 +10,7 @@
     background-image:url(/img/banner1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    padding: 200px;
+    padding: 150px;
     width: 100%;
 
 }
@@ -52,10 +52,16 @@
     animation-duration: 2s;
     animation-iteration-count:infinite;
 }
+@media screen and (min-width:1310px){
+    .banner_img{
+        padding: 200px;
+    }
+    
+}
 
 @media screen and (max-width: 660px){
     .banner_img{
-        padding: 100px;
+        padding: 80px;
     }
     
 }
@@ -79,6 +85,8 @@
         padding: 50px;
     }
 }
+
+
 
 
 @keyframes title {
