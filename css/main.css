@@ -71,6 +71,14 @@
         font-size: small;
     }
 }
+@media screen and (max-width:450px){
+    .space{
+        font-size: medium;
+    }
+    .banner_img{
+        padding: 50px;
+    }
+}
 
 
 @keyframes title {
