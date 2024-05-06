@@ -39,6 +39,31 @@
     text-decoration-line: underline;
     color:purple;
 }
+.text_style5:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:red;
+}
+.text_style6:hover{
+    transition: ease-in-out;
+    text-decoration-line: underline;
+    color:green;
+}
+.btn-linkedin {
+    background: #0E76A8;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #084461;
+  }
+  .btn-linkedin:link, .btn-linkedin:visited {
+    color: #fff;
+  }
+  .btn-linkedin:active, .btn-linkedin:hover {
+    background: #084461;
+    color: #fff;
+  }
 
 
 .name_animation{
